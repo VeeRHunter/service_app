@@ -1,0 +1,105 @@
+<ion-header class="header_class">
+  <ion-row class="header_row">
+    <span class="header_span">
+      Home
+    </span>
+  </ion-row>
+</ion-header>
+
+<ion-content padding>
+  <ion-row class="first_row">
+    <ion-row class="normal_margin">
+      <span class="amount_span">
+        Amount Owing
+      </span>
+    </ion-row>
+    <ion-row class="normal_margin">
+      <span class="dollar_amount_span">
+        $120.20
+      </span>
+    </ion-row>
+    <ion-row class="normal_margin">
+      <span class="dollar_date_span">
+        Due 12-12-2015
+      </span>
+    </ion-row>
+  </ion-row>
+  <ion-row class="download_pay">
+    <ion-col col-1>
+    </ion-col>
+    <ion-col col-5>
+      <ion-row class="button_row">
+        <button mat-button class="button_style1">
+          DOWNLOAD BILL
+        </button>
+      </ion-row>
+    </ion-col>
+    <ion-col col-5>
+      <ion-row class="button_row">
+        <button mat-button class="button_style2" (click)="goto_paynow()">
+          PAY NOW
+        </button>
+      </ion-row>
+    </ion-col>
+    <ion-col col-1>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="my_detail">
+    <ion-col col-1>
+    </ion-col>
+    <ion-col col-10>
+      <ion-row class="button_row">
+        <button mat-button class="button_style1" (click)="goto_mydetail()">
+          MY DETAILS
+        </button>
+      </ion-row>
+    </ion-col>
+    <ion-col col-1>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="my_normal">
+    <ion-col col-1>
+    </ion-col>
+    <ion-col col-10>
+      <ion-row class="button_row">
+        <button mat-button class="button_style1" (click)="goto_myaccount()">
+          MY ACCOUNT
+        </button>
+      </ion-row>
+    </ion-col>
+    <ion-col col-1>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="my_normal">
+    <ion-col col-1>
+    </ion-col>
+    <ion-col col-10>
+      <ion-row class="button_row">
+        <button mat-button class="button_style1" (click)="goto_myservice()">
+          MY SERVICES
+        </button>
+      </ion-row>
+    </ion-col>
+    <ion-col col-1>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="my_normal">
+    <ion-col col-1>
+    </ion-col>
+    <ion-col col-10>
+      <ion-row class="button_row">
+        <button mat-button class="button_style1" (click)="goto_mydevice()">
+          MY DEVICES
+        </button>
+      </ion-row>
+    </ion-col>
+    <ion-col col-1>
+    </ion-col>
+  </ion-row>
+
+
+</ion-content>
